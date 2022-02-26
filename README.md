@@ -26,7 +26,7 @@ Then configure your local .eslintrc.json to extend our emitted code:
 
 ```json
 {
-  extends: "./node_modules/@volley/.lint/.eslintrc.js"
+  "extends": "./node_modules/@volley/.lint/.eslintrc.js"
 }
 ```
 
