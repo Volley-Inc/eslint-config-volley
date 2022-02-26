@@ -1,0 +1,32 @@
+{
+  "name": "@volley/.lint",
+  "version": "1.0.7",
+  "description": "Volley's extensible and strict linting configuration for Typescript",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "prettier .eslintrc.js --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volley-inc/.lint.git"
+  },
+  "keywords": [
+    "standard",
+    "linting",
+    "best",
+    "practices",
+    "strict"
+  ],
+  "author": "Michael Poteat <admin@code.lol>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volley-inc/.lint/issues"
+  },
+  "homepage": "https://github.com/volley-inc/.lint#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "strip-json-comments": "^3.1.1"
+  }
+}
