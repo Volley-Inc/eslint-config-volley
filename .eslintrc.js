@@ -5,7 +5,7 @@ function getCommonJSDoc() {
   const commonContexts = {
     contexts: ["FunctionDeclaration", "TSTypeAliasDeclaration"],
   };
-
+// test
   return ["warn", commonContexts];
 }
 

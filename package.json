@@ -1,5 +1,5 @@
 {
-  "name": "@volley/.lint",
+  "name": "@volley/eslint-config-volley",
   "version": "1.1.0",
   "description": "Volley's extensible and strict linting configuration for Typescript",
   "main": ".eslintrc.js",
@@ -26,7 +26,18 @@
   "devDependencies": {
     "prettier": "^2.2.1"
   },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "typescript": "~4.5.5"
+  },
   "dependencies": {
-    "strip-json-comments": "^3.1.1"
+    "strip-json-comments": "^3.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-auto": "^0.7.1",
+    "eslint-config-prettier": "^8.3.0"
   }
 }

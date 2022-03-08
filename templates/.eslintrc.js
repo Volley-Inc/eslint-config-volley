@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "./node_modules/@volley/.lint/.eslintrc.js",
+  extends: "./node_modules/@volley/eslint-config-volley/.eslintrc.js",
   rules: {
     "no-console": "off",
     "no-restricted-syntax": "off",
