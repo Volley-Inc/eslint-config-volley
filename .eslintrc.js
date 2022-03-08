@@ -52,7 +52,12 @@ module.exports = {
       modules: true,
     },
   },
-  plugins: ["unused-imports", ...conditionallyApplyJSDoc("jsdoc")],
+  plugins: [
+    '@typescript-eslint', 
+    "lodash",
+    "unused-imports", 
+    ...conditionallyApplyJSDoc("jsdoc")
+  ],
   extends: [
     ...conditionallyApplyJSDoc("plugin:jsdoc/recommended"),
     "plugin:prettier/recommended",
