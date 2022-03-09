@@ -115,12 +115,6 @@ module.exports = {
     "lodash/import-scope": [1, "member"],
 
     /**
-     * We aren't opinionated about only doing default exports from files with
-     * only one export, since it's not as extensible.
-     */
-    "import/prefer-default-export": "off",
-
-    /**
      * Prefer chaining to flow/compose-based computation, because the type
      * system is not powerful enough to represents the generics properly.
      */
