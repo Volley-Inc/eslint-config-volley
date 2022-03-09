@@ -147,6 +147,9 @@ module.exports = {
       env: {
         node: true,
       },
+      parserOptions: {
+        project: null,
+      },
     },
   ],
 };
