@@ -14,7 +14,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-
+  
+  /**
+   * Ignore `templates` folder
+   */
+  "eslint.enable": false,
+  
   /**
    * When moving source files in TS/JS, automatically update their associated
    * imports.
