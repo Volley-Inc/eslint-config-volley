@@ -1,6 +1,6 @@
 {
   "name": "@volley/eslint-config-volley",
-  "version": "1.1.1-1",
+  "version": "1.1.1-2",
   "description": "Volley's extensible and strict linting configuration for Typescript",
   "main": ".eslintrc.js",
   "scripts": {
