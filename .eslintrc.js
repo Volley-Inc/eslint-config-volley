@@ -5,7 +5,7 @@ function getCommonJSDoc() {
   const commonContexts = {
     contexts: ["FunctionDeclaration", "TSTypeAliasDeclaration"],
   };
-// test
+  // test
   return ["warn", commonContexts];
 }
 
@@ -53,10 +53,10 @@ module.exports = {
     },
   },
   plugins: [
-    '@typescript-eslint', 
+    "@typescript-eslint",
     "lodash",
-    "unused-imports", 
-    ...conditionallyApplyJSDoc("jsdoc")
+    "unused-imports",
+    ...conditionallyApplyJSDoc("jsdoc"),
   ],
   extends: [
     ...conditionallyApplyJSDoc("plugin:jsdoc/recommended"),
