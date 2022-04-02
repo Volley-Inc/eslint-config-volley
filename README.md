@@ -16,19 +16,25 @@ Fundamentally, this project exists as a higher-level collection and configuratio
 
 ## Installation
 
-First install this package as a development dependency:
+Install this package and its dependedencies as a development dependency:
 
 ```sh
-> npm i @volley/.lint
+> npx install-peerdeps @volley/eslint-config-volley --dev
 ```
 
-Then configure your local .eslintrc.json to extend our emitted code:
+Then, you'll need to add some files to the root of your project. You can either:
 
-```json
-{
-  "extends": "./node_modules/@volley/.lint/.eslintrc.js"
-}
+1. Do it the quick and dirty way, by copying the files provided from this package into the root of your project:
+
+```sh
+> cp node_modules/@volley/eslint-config-volley/templates/* .
 ```
+
+2. Or, you can manually copy the parts that you need. We highly recommend referencing the files contained in this package's `templates` directory.
+
+#TODO 
+
+To see a minimal working configuration, check out github template.
 
 ## Configuration
 
