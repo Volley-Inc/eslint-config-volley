@@ -1,6 +1,6 @@
 {
   "name": "@volley/eslint-config-volley",
-  "version": "1.1.1-7",
+  "version": "1.1.1-8",
   "description": "Volley's extensible and strict linting configuration for Typescript",
   "main": ".eslintrc.js",
   "scripts": {
@@ -40,6 +40,5 @@
     "eslint-config-prettier": "^8.3.0",
     "strip-json-comments": "^3.1.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
