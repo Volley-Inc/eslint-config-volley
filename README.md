@@ -30,9 +30,9 @@ Then, you'll need to add some files to the root of your project. You can either:
 > cp -R node_modules/@volley/eslint-config-volley/templates/. .
 ```
 
-2. Or, you can manually copy the parts that you need. We highly recommend referencing the files contained in this package's `templates` directory.'
+2. Or, you can manually copy the parts that you need. Again, if you need help, reference the setup provided in this module's `templates` directory.
 
-You're almost done. Run the following in your terminal. It just means "lint everything in the `/src` directory"
+You're almost done. Run the following in your terminal. It just means "lint everything in the `/src` directory".
 
 ```sh
 > npx eslint src/*
@@ -64,7 +64,7 @@ If everything is working, you should see a single error concerning `thisBreaksRu
   1 error and 0 warnings potentially fixable with the `--fix` option.
 ```
 
-Congrats, it's working. Furthermore, if you pop open thisBreaksRules.ts, you should see a warning in VSCode.
+Congrats, it's working. Also, if you pop open `/src/thisBreaksRules.ts`, you should see a warning overlayed in VSCode.
 
 
 #TODO 
