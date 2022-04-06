@@ -1,4 +1,4 @@
-# Volley's Standard `.lint` :: 🪄✨
+# Volley's Standard `eslint-config-volley` :: 🪄✨
 
 A standard way to ensure robust and strict linting in Typescript projects.
 
