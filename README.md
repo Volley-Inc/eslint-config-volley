@@ -51,11 +51,11 @@ Okay, if you've made it this far, try another one of these:
 If everything is working, you should see a single error concerning `thisBreaksRules.ts`:
 
 ```sh
-.../eslint-host-test/src/index.ts
-  1:1  error  Delete `···`  prettier/prettier
+[...]/eslint-host-test/src/index.ts
+  1:33  error  Delete `·······`  prettier/prettier
 
 ✖ 1 problem (1 error, 0 warnings)
-  1 error and 0 warnings potentially fixable with the `--fix` option.
+  1 error and 0 warnings potentially fixable with the `--fix` option
 ```
 
 Congrats, it's working. Also, if you pop open `/src/thisBreaksRules.ts`, you should see a warning overlayed in VSCode.
