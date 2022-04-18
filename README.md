@@ -38,15 +38,9 @@ You're almost done. Run the following in your terminal. It just means "lint ever
 > npx eslint src/*
 ```
 
-It should spit up a message about missing dependencies. At the end, it'll say:
+It should spit up a message about missing dependencies. At the end, it'll say: `"To install the missing packages, please run the following command:"`, and an `npm install` command including a bunch of dependencies.
 
-```"To install the missing packages, please run the following command:"```
-
-...and an `npm install` command including a bunch of dependencies.
-
-Copy it, then run it in your terminal.
-
-Phew.
+Copy the provided `npm install [...]` command, then run it in your terminal.
 
 Okay, if you've made it this far, try another one of these:
 
