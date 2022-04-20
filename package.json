@@ -4,8 +4,7 @@
   "description": "Volley's extensible and strict linting configuration for Typescript",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint": "prettier .eslintrc.js --write",
-    "postinstall": "echo 'Hello World'"
+    "lint": "prettier .eslintrc.js --write"
   },
   "repository": {
     "type": "git",
