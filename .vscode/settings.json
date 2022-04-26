@@ -14,7 +14,30 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  
+  /**
+   * Enable ESLint for this repo using a custom config object
+   */
+  "eslint.options": {
+    // Ignore any eslintrc files in this repo, 
+    // since they are intended to lint host repos
+    "useEslintrc": false,
 
+    "baseConfig": {
+      "extends": "eslint:recommended",
+      "env": {
+        "node": true,
+      },
+      "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+      },
+      "ignorePatterns": [
+        "templates"
+      ]
+    } 
+  },
+  
   /**
    * When moving source files in TS/JS, automatically update their associated
    * imports.

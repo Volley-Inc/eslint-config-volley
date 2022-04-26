@@ -52,7 +52,12 @@ module.exports = {
       modules: true,
     },
   },
-  plugins: ["unused-imports", ...conditionallyApplyJSDoc("jsdoc")],
+  plugins: [
+    "@typescript-eslint",
+    "lodash",
+    "unused-imports",
+    ...conditionallyApplyJSDoc("jsdoc"),
+  ],
   extends: [
     ...conditionallyApplyJSDoc("plugin:jsdoc/recommended"),
     "plugin:prettier/recommended",
@@ -110,12 +115,6 @@ module.exports = {
     "lodash/import-scope": [1, "member"],
 
     /**
-     * We aren't opinionated about only doing default exports from files with
-     * only one export, since it's not as extensible.
-     */
-    "import/prefer-default-export": "off",
-
-    /**
      * Prefer chaining to flow/compose-based computation, because the type
      * system is not powerful enough to represents the generics properly.
      */
@@ -141,6 +140,9 @@ module.exports = {
       files: [".eslintrc.js"],
       env: {
         node: true,
+      },
+      parserOptions: {
+        project: null,
       },
     },
   ],
